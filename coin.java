@@ -1,10 +1,10 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 public class coin{
     public static void main(String[] args){
-        //Scanner scanner = new Scanner(System.in);
-        //System.out.println("Who are you?");
-        //String st = scanner.next();
-        //System.out.println("Hello, "+st+"!");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Who are you?");
+        String st = scanner.next();
+        System.out.println("Hello, "+st+"!");
         System.out.println("Tossing a coin");
         int a = 0;
         int b = 0;
