@@ -21,12 +21,12 @@ public class coin{
             }
         }
         System.out.println("Heads: "+a+", Tails: "+b);
-        //if( a>b ){
-        //    System.out.println(st+" won!");
-        //}
-        //else{
-        //    System.out.println(st+" lost.");
-        //}
+        if( a>b ){
+            System.out.println("you won!");
+        }
+        else{
+            System.out.println("you lost.");
+        }
 
     }
 }
